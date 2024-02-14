@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Solar System Simulation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <canvas id="solarSystemCanvas"></canvas>
+  <div class="controls">
+    <button onclick="increasePlanetSize()">Increase Planet Size</button>
+    <button onclick="decreasePlanetSize()">Decrease Planet Size</button>
+    <button onclick="increaseSatelliteSize()">Increase Satellite Size</button>
+    <button onclick="decreaseSatelliteSize()">Decrease Satellite Size</button>
+    <button onclick="increaseTextSize()">Increase Text Size</button>
+    <button onclick="decreaseTextSize()">Decrease Text Size</button>
+    <input type="color" id="textColor" onchange="changeTextColor()">
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
